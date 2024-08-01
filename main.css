@@ -247,8 +247,8 @@ tr{
 }
 #learn-more{
     background:#ffffff;
-    padding: 5px;
-    outline: none;
+    padding: 7px;
+    border: none;
 
 }
 
@@ -535,255 +535,245 @@ tr{
     font-size: 42px;
 }
 
-
-
-
-    .sub-title {
-        font-size: 18px;
-        width: auto;
+/* Medium devices (tablets, 600px to 768px) */
+@media (min-width: 600px) and (max-width: 768px) {
+    .nav{
+        margin-top: 5%;
+        display: flex;
+        
     }
-
-    .nav-table {
-        margin-top: 20%;
-        width: 100%;
-        overflow-x: auto;
-    }
-
-    ul {
-        flex-direction: column;
+    .nav-table{
+        display: flex;
         align-items: center;
-        margin: 0;
-    }
-
-    .Services-holder {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .Services-desc-title {
-        font-size: 28px;
-    }
-
-    .Services-desc-sub,
-    .security-mission-text {
+        justify-content: center;
         font-size: 12px;
-    }
 
-    .grid-container {
-        grid-template-columns: 1fr;
     }
-
-    .form-table {
-        width: 90%;
-        height: auto;
+    .title{
+        margin-left: 60%;
+        margin-top: -70%;
     }
-
-    .form-struct {
-        flex-direction: column;
+    .sub-title{
+        margin-left: 60%;
+        margin-top: -20%;
     }
-
-    .article-cards {
-        flex-direction: column;
+    .learn{
+        margin-left: 60%;
+        margin-top: -10%;
     }
-
-    .column {
-        width: 100%;
-    }
-
-    .footer-structure {
-        flex-direction: column;
+    .info{
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
-
-    .footer-email {
-        width: 100%;
+    .info-holder{
+               margin-right: 100px;
     }
-
-
-/* Medium devices (tablets, 600px to 768px) */
-@media (min-width: 600px) and (max-width: 768px) {
-    .background-nav,
-    .background-form,
-    .video {
-        height: auto;
+    .security-guy{
+        width: 50vw;
+        height: 50vh;
+        background-size: contain; /* Ensure the SVG scales correctly */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: center; /* Center the image */
+    
     }
-
-    .security-guy {
-        width: 100%;
-        height: auto;
+    .Services-desc{
+        margin-left: -50px;
     }
-
-    .content {
-        position: static;
-        margin-top: 20px;
+    .Services-desc-title{
+        width: 250px;
+        font-size: 26px;
     }
-
-    .title {
-        font-size: 32px;
-        width: auto;
+    .Services-holder{
+        margin-left: -50px;
     }
-
-    .sub-title {
-        font-size: 20px;
-        width: auto;
+    .form-table{
+        width: 100vw;
     }
-
-    .nav-table {
-        margin-top: 20%;
-        width: 100%;
-        overflow-x: auto;
+    .form-table tr th,td{
+        padding-left: 50px;
+        padding-right: 50px;
     }
-
-    ul {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
+    body{
+        overflow-x: hidden;
     }
-
-    .Services-holder {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .Services-desc-title {
-        font-size: 32px;
-    }
-
-    .Services-desc-sub,
-    .security-mission-text {
-        font-size: 14px;
-    }
-
-    .grid-container {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .form-table {
-        width: 90%;
-        height: auto;
-    }
-
-    .form-struct {
-        flex-direction: column;
-    }
-
-    .article-cards {
-        flex-direction: column;
-    }
-
-    .column {
-        width: 100%;
-    }
-
-    .footer-structure {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-email {
-        width: 100%;
-    }
-}
-
-/* Large devices (desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .background-nav,
-    .background-form,
-    .video {
-        height: 100vh;
-
-    }
-
-    .security-guy {
-        width: 500px;
-        height: 100vh;
-    }
-
-    .content {
-        position: absolute;
-        margin-top: -35%;
-        right: 80%;
-    }
-
-    .title {
-        font-size: 42px;
-        width: 214px;
-    }
-
-    .sub-title {
-        font-size: 22px;
-        width: 200px;
-    }
-
-    .nav-table {
-        margin-top: 9%;
-    }
-
-    ul {
-        flex-direction: row;
-        align-items: center;
-        margin-inline-end: 70px;
-    }
-
-    .Services-holder {
-        flex-direction: row;
-        align-items: center;
-        width: 50%;
-        margin: 20px;
-    }
-
-    .Services-desc-title {
-        font-size: 36px;
-    }
-
-    .Services-desc-sub,
-    .security-mission-text {
-        font-size: 14px;
-    }
-
-    .grid-container {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .form-table {
-        width: 1000px;
-        height: 200px;
-    }
-
-    .form-struct {
-        flex-direction: row;
-    }
-
-    .article-cards {
-        flex-direction: row;
-    }
-
-    .column {
-        width: 200px;
-    }
-
-    .footer-structure {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .footer-email {
+    .form-body{
+        margin-top: -80%;
         width: 300px;
+
     }
+   .footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+   }
+   .footer-structure{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center; /* Optional: space out columns */
+    gap: 5px; /* Optional: gap between columns */
 }
-/* Small devices (phones, 600px and down) */
+.footer{
+    background:#d7d8d862;
+
+}
+.footer-holder{
+    background:#132553;
+    padding-top: 20px;
+    color: white;
+    padding: 20px;
+
+}
+.footer-column{
+    margin: 0;
+}
+.footer-Newsletter{
+    font-size: 24px;
+}
+.footer-email{
+    width: 200px;
+    height: 30px;
+
+}
+.footer-Subscribe{
+    height: 30px;
+}
+
+}
+
+/* Small devices (Phones, 600px to 768px) */
+
 @media (max-width: 600px) {
-    /* Add your responsive styles here */
+    .nav{
+        margin-top: 10%;
+        display: flex;
+        
+    }
+    .logo{
+        width: 20px; /* Set your desired width */
+        height: 10px; /* Set your desired height */
+        background-image: url('assets/LOGO.png'); /* Path to your SVG file */
+        background-size: contain; /* Ensure the SVG scales correctly */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: center; /* Center the image */
+}
+    .nav-table{
+        margin-top: -10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+
+    }
+    .nav-table ul{
+        margin: 0;
+        padding: 0;
+    }
+    .title{
+        margin-left: 90%;
+        margin-top: -170%;
+    }
+    .sub-title{
+        margin-left: 90%;
+        margin-top: -20%;
+    }
+    .learn{
+        margin-left: 90%;
+        margin-top: -10%;
+    }
+    #learn-more{
+        padding: 10px;
+        width: 100px;
+
+    }
+    .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-holder{
+               margin-right: 100px;
+    }
+    .security-guy{
+        width: 30vw;
+        height: 80vh;
+        background-size: contain; /* Ensure the SVG scales correctly */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: center; /* Center the image */
+    
+    }
+    .Services-desc{
+        margin-left: -50px;
+    }
+    .Services-desc-title{
+        width: 250px;
+        font-size: 26px;
+    }
+    .Services-holder{
+        margin-left: -50px;
+    }
+    .form-table{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    
+
+    }
+    .form-table tr th,td{
+        font-size: smaller;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+    .form-body{
+        margin-left: -30%;
+        margin-top: -100%;
+        width: 250px;
+
+    }
+    .articles{
+        width: 400px;
+    }
+   .footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+   }
+   .footer-structure{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center; /* Optional: space out columns */
+    gap: 5px; /* Optional: gap between columns */
+}
+.footer{
+    background:#d7d8d862;
+
+}
+.footer-holder{
+    background:#132553;
+    padding-top: 20px;
+    color: white;
+    padding: 20px;
+
+}
+.footer-column{
+    margin: 0;
+}
+.footer-Newsletter{
+    font-size: 24px;
+}
+.footer-email{
+    width: 200px;
+    height: 30px;
+
+}
+.footer-Subscribe{
+    height: 30px;
 }
 
-/* Medium devices (tablets, 600px to 768px) */
-@media (min-width: 600px) and (max-width: 768px) {
-    /* Add your responsive styles here */
-}
-
-/* Large devices (desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    /* Add your responsive styles here */
 }
