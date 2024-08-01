@@ -138,6 +138,49 @@
 
 
 }
+
+.facebook-image{
+    width: 30px; /* Set your desired width */
+    height: 20px; /* Set your desired height */
+    background-image: url('assets/facebook-logo-in-circular-shape.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.twitter-image{
+    width: 30px; /* Set your desired width */
+    height: 20px; /* Set your desired height */
+    background-image: url('assets/twitter.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.instagram-image{
+    width: 30px; /* Set your desired width */
+    height: 20px; /* Set your desired height */
+    background-image: url('assets/instagram.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.linkedin-image{
+    width: 30px; /* Set your desired width */
+    height: 20px; /* Set your desired height */
+    background-image: url('assets/linkedin.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+
+
 .nav{
     display: flex;
     align-items: center;
@@ -173,7 +216,7 @@ ul{
 li{
     margin: 0 10px;
 }
-a{
+.nav-table a{
     text-decoration: none;
     color: black;
 }
@@ -390,4 +433,105 @@ tr{
     width: 100px;
 
 
+}
+.article-cards {
+    display: flex;
+    justify-content: center; /* Optional: space out columns */
+    gap: 15px; /* Optional: gap between columns */
+}
+.articles-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.articles{
+    
+    background:#d7d8d862;
+    margin-bottom: 20px;
+
+
+}
+.column{
+    background:#ffffff;
+    border: 0.5px solid rgba(128, 128, 128, 0.493);
+    padding: 30px;
+    width: 200px;
+
+
+}
+.column-text{
+    font-size: 24px;
+}
+.column-desc{
+    font-size:14px ;
+    color: #a89999;
+
+
+}
+.Articles-button{
+    border: none;
+    background:#c69c4e;
+    padding: 10px;
+    color:white;
+    width: 100px;
+
+}
+.footer-structure{
+    display: flex;
+    align-items: center;
+    justify-content:center; /* Optional: space out columns */
+    gap: 5px; /* Optional: gap between columns */
+}
+.footer{
+    background:#d7d8d862;
+
+}
+.footer-holder{
+    background:#132553;
+    padding-top: 20px;
+    color: white;
+    padding: 40px;
+
+}
+.footer-column{
+}
+.footer-column p{
+    display: flex;
+
+}
+.footer-email{
+    background:#032b56;
+    outline: none;
+    border: 1px solid gray ;
+    height: 50px;
+    width: 300px;
+}
+.footer-Subscribe{
+    height: 50px;
+
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.footer-list li{
+    padding: 5px;
+}
+#footer-list-Bold li a,.Heavy{
+    color: #ffffff;
+    font-weight: 900;
+}
+ a{
+    text-decoration:none;
+    color: #ffffff8c;
+    
+}
+.col-p{
+    color: rgba(128, 128, 128, 0.644);
+
+}
+.footer-Newsletter{
+    font-size: 42px;
 }
