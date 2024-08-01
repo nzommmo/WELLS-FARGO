@@ -1,0 +1,393 @@
+.background-nav {
+    width: 100vw; /* Set your desired width */
+    height: 100vh; /* Set your desired height */
+    background-image: url('assets/nav.png'); /* Path to your SVG file */
+    background-size:cover; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center ; /* Center the image */
+    filter: contrast(50%);
+    
+  }
+  .background-form {
+    width: 100vw; /* Set your desired width */
+    height: 100vh; /* Set your desired height */
+    background-image: url('assets/cctv.png'); /* Path to your SVG file */
+    background-size:cover; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center 50px; /* Center the image */
+    filter: contrast(90%);
+    margin-top: 100px;
+
+    
+  }
+  .video {
+    width: 100vw; /* Set your desired width */
+    height: 100vh; /* Set your desired height */
+    background-image: url('assets/Video.png'); /* Path to your SVG file */
+    background-size:cover; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center ; /* Center the image */
+    margin-bottom: 50px;
+  }
+.logo{
+        width: 60px; /* Set your desired width */
+        height: 20px; /* Set your desired height */
+        background-image: url('assets/LOGO.png'); /* Path to your SVG file */
+        background-size: contain; /* Ensure the SVG scales correctly */
+        background-repeat: no-repeat; /* Prevent repeating the image */
+        background-position: center; /* Center the image */
+}
+.video-security{
+    width: 60px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    background-image: url('assets/videosecurity.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+    white-space: nowrap;
+
+
+}
+.alarm{
+    width: 60px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    background-image: url('assets/alarm\ copy.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.fire-detect{
+    width: 60px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    background-image: url('assets/Fire-Detect.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.Guard-image{
+    width: 60px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    background-image: url('assets/guard.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.Fire-image{
+    width: 60px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    background-image: url('assets/fire.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.Truck-image{
+    width: 60px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    background-image: url('assets/truck.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.Electronic-image{
+    width: 60px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    background-image: url('assets/alarm.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.Access-image{
+    width: 60px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    background-image: url('assets/Access.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.Dog-image{
+    width: 60px; /* Set your desired width */
+    height: 40px; /* Set your desired height */
+    background-image: url('assets/dog.png'); /* Path to your SVG file */
+    background-size: contain; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.security-guy{
+    width:500px ; /* Set your desired width */
+    height: 100vh; /* Set your desired height */
+    background-image: url('assets/Security-guy.png'); /* Path to your SVG file */
+    background-size: cover; /* Ensure the SVG scales correctly */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}   
+.nav-table {
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    max-width: 100%;
+    margin-top: 9%;
+    background-color: white;
+
+    
+    
+    
+}
+th, td {
+            border: 1px solid rgba(0, 0, 0, 0.151);
+            padding: 4px;
+            text-align: left;
+        }
+ul{
+    display: flex;
+    justify-content: end;
+    margin-inline-end:70px ;
+    list-style:none;
+}
+li{
+    margin: 0 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+tr{
+    height: 10px;
+}
+.cot{
+    display: flex;
+}
+#upper-nav a{
+    color:#c69c4e;
+}
+.content{
+    position:absolute;
+    margin-top: -35%;
+    right: 80%;
+}
+.title{
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: bolder;
+    width: 214px;
+}
+.sub-title{
+    color: #ffffff;
+    font-size: 22px;
+    width: 200px;
+}
+#learn-more{
+    background:#ffffff;
+    padding: 5px;
+    outline: none;
+
+}
+
+.info-holder {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-inline-start:  150px;
+}
+.video-security-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.arrow{
+    margin-left: 15px;
+}
+#info1{
+    background:#b8b9b9;
+    
+}
+#info2{
+    background:#ffffff;
+    
+}
+#info3{
+    background:#c69c4e;
+    color: white;
+    
+}
+.Services-holder{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 50%;
+    margin: 20px;
+
+}
+.Services-desc-title{
+    font-size: 36px;
+    color:#032b56;
+    
+}
+
+.Services-desc-sub, .security-mission-text{
+    font-size:14px ;
+    color: #a89999;
+}
+.Services-button button{
+    background:#c69c4e ;
+    color: white;
+    border: none;
+    padding: 12px;
+    
+}
+.Services{
+    margin-inline-start: 100px;
+}
+.services-image{
+    float: right;
+    width: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px; /* Optional, for spacing between items */
+  }
+  
+  .About-title {
+    grid-column: span 2;
+    
+    
+  }
+.About-title-text{
+    color: #032b56;
+    font-size: 36px;
+}
+.About-title-desc{
+    font-size:14px ;
+    color: #a89999;
+
+}
+.About-Truck{
+    background:#c69c4e ;
+    color: white;
+
+
+}
+.title-desc{
+    font-size:14px ;
+    color: #a89999;
+
+
+
+}
+.title-text{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.grid-container div{
+    padding: 10px;
+    
+
+}
+.About{
+    background:#d7d8d862;
+
+}
+.About-guard, .About-guard,.About-Fire,.About-Electronic,.About-Dog,.About-Access{
+    background:white;
+
+}
+
+
+.form-table {
+    border-collapse: collapse ;
+    background:#c69c4e;
+    width: 1000px;
+    height: 200px;
+    border-radius: 2px;
+    
+
+}
+.form-table-th , .form-table-td {
+    padding: 2px;
+    border: none;
+    text-align: center;
+}
+.background-form{
+    display: flex;
+    justify-content: center;
+}
+.form-row1{
+    color: white;
+    font-size: 36px;
+}
+.form-row2{
+    color: white;
+    font-size: 20px;
+}
+.assess-form{
+        position: absolute;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        margin-top: -15%;
+  }
+.form-body{
+    background: white;
+    border-radius: 3px;
+    padding: 10px;
+    
+}  
+.form-struct{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+.bottom-border-only {
+    border: none;
+    border-bottom: 1px solid black; /* Set the bottom border */
+    padding: 8px;
+    width: 100%; /* Optional: Set the width of the input */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+.form-text{
+    color: #032b56;
+    font-size: 32px;
+}
+.Assess-button{
+    border: none;
+    background:#c69c4e;
+    padding: 10px;
+    color:white;
+    width: 100px;
+
+
+}
